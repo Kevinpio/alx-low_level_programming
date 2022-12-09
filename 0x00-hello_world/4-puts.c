@@ -5,7 +5,9 @@
  * Description: use puts to output a string
  * Return: Always 0 (success
 */
-int main(void) /*Main function*/
+
+/* main.c */
+int main(void) 
 
 {
 
