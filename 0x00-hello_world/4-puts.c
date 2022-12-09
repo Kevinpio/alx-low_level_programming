@@ -5,9 +5,7 @@
  * Description: use puts to output a string
  * Return: Always 0 (success
 */
-/* main.c */
-int main(void) 
-
+/* main.c */ int main(void) 
 {
 		char *exp;
 
