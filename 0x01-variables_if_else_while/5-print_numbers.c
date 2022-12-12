@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * main - Entry point
  *
@@ -15,9 +17,9 @@ int main(void)
 		i = 0;
 		while (i <= 9)
 		{
-		printf("%d", i);
+		printf ("%d", i);
 		if (i == 9)
-		printf('\n');
+		printf ('\n');
 		i++;
 		}
 		return (0);
