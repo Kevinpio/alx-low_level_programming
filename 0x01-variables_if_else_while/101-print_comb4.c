@@ -65,5 +65,7 @@ int main(void)
 		x++;
 		y = x + 1;
 		z = x + 2;
+		}
 		return (0);
 }
+
