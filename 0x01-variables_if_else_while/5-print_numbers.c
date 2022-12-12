@@ -1,14 +1,12 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
  * main - Entry point
  *
- * Descrition - a program that prints the alphabet in lowercase,
+ * Description - a program that prints all single digit numbers
  *
- * followed by a new line.
+ * of base 10 starting from 0, followed by a new line.
  *
- * Return: Always 0 (success)
+ * Return: Always 1 (success)
  *
  */
 int main(void)
@@ -17,9 +15,9 @@ int main(void)
 		i = 0;
 		while (i <= 9)
 		{
-		putchar(i);
+		printf("%d", i);
 		if (i == 9)
-		putchar('\n');
+		printf("\n");
 		i++;
 		}
 		return (0);
