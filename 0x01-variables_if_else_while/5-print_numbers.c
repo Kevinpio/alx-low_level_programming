@@ -11,14 +11,14 @@
  */
 int main(void)
 {
-	int k;
-		k = 0;
-		while (k <= 9)
+	int i;
+		i = 0;
+		while (i <= 9)
 		{
-		putchar(k);
-		if (k == 9)
-		putchar('\n');
-		k++;
+		printf("%d", i);
+		if (i == 9)
+		printf('\n');
+		i++;
 		}
 		return (0);
 }
