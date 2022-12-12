@@ -4,9 +4,9 @@
 /* more headers goes there */
 /* betty style doc for function main goes there */
 /**
+ * main - Entry point
  *
  * main - A funtion to practice conditional statements
- *
  *
  * Description - function to generate a random number and determine if it is
  *
@@ -16,10 +16,9 @@
  */
 int main(void)
 {
-		int n;
+	int n;
 		srand(time(0));
-		n = rand() - RAND_MAX / 2;
-/* your code goes there */
+		n = rand() - RAND_MAX / 2; /* your code goes there */
 		if (n > 0)
 		printf("%d is positive\n", n);
 		else if (n < 0)
