@@ -13,7 +13,7 @@ int main(void)
 {
 	int k;
 		k = 0;
-		while (k < 10)
+		while (k <= 9)
 		{
 		putchar(k);
 		if (k == 9)
