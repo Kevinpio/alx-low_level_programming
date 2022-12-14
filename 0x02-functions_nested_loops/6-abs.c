@@ -1,6 +1,5 @@
 #include "main.h"
 /**
- *
  * _abs - Output absolute value of an integer
  *
  * @n: parameter must be an integer value
