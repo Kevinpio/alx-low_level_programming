@@ -1,18 +1,15 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *  * print_to_98 - natural numbers between n and 98
+ * print_to_98 - natural numbers between n and 98
  *
- *   *
+ * @n: integer to start at
  *
- *   * @n: integer to start at
+ * Description: a function that prints all natural numbers from n to 98,
  *
- *   * Description: a function that prints all natural numbers from n to 98,
+ * - followed by a new line.
  *
- *   * - followed by a new line.
- *
- *   * Return: void.
- *
+ * Return: void.
  **/
 void print_to_98(int n)
 {
