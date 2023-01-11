@@ -11,7 +11,7 @@ char **strtow(char *str)
 {
 	int len = 0;
 		char **s;
-		if (str == NULL)
+	if (str == NULL)
 		return (NULL);
 		len = word_count(str);
 		if (len == 0)
@@ -44,7 +44,7 @@ char **order_words(char *str, int len)
 {
 	int i = 0, j = 0, x = 0, y = 0;
 		char **s;
-		s = malloc((len + 1) * sizeof(*s));
+	s = malloc((len + 1) * sizeof(*s));
 		if (s == NULL)
 		return (NULL);
 		i = 0;
