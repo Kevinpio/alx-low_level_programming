@@ -23,8 +23,8 @@ int **alloc_grid(int width, int height)
 	if (matrix[i] == NULL)
 		{
 	for ( ; i >= 0; )
-		free(matrix[i--]);
-		free(matrix);
+	free(matrix[i--]);
+	free(matrix);
 		return (NULL);
 		}
 	for (j = 0; j < width; j++)
