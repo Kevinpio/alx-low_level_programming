@@ -12,13 +12,13 @@ char *argstostr(int ac, char **av)
 		char *p;
 	if (ac == 0 || av == NULL)
 		return (NULL);
-		for (i = 0, total = 0; i < ac; i++)
-		for (j = 0; av[i][j]; j++, total++)
+	for (i = 0, total = 0; i < ac; i++)
+	for (j = 0; av[i][j]; j++, total++)
 		total += ac;
 		p = malloc(total * sizeof(char) + 1);
-		for (i = 0; i < ac; i++)
+	for (i = 0; i < ac; i++)
 		{
-		for (j = 0; av[i][j]; j++)
+	for (j = 0; av[i][j]; j++)
 		*p++ = av[i][j];
 		*p++ = '\n';
 		}

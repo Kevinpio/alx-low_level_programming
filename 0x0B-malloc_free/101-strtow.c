@@ -13,10 +13,10 @@ char **strtow(char *str)
 		char **s;
 	if (str == NULL)
 		return (NULL);
-		len = word_count(str);
-		if (len == 0)
+	len = word_count(str);
+	if (len == 0)
 		return (NULL);
-		s = order_words(str, len);
+	s = order_words(str, len);
 		return (s);
 }
 /**
